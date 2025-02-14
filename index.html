@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday CYL!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- 背景动画 -->
+  <div class="background-animation"></div>
+
+  <!-- 页面标题 -->
+  <header>
+    <h1 class="neon-text">Happy Birthday, CYL!</h1>
+  </header>
+
+  <!-- 3D蛋糕模型 -->
+  <div id="cake-container">
+    <div id="cake"></div>
+    <div id="candles"></div>
+  </div>
+
+  <!-- 生日计数器 -->
+  <div class="counter-container">
+    <div id="counter"></div>
+    <p id="counter-message"></p>
+  </div>
+
+  <!-- 诗意文本 -->
+  <div class="poetic-text">
+    <p>从千禧年的初春开始，</p>
+    <p>时光如歌，岁月如诗。</p>
+    <p>每一颗星辰都为你闪耀，</p>
+    <p>每一缕风都为你轻吟。</p>
+    <p>今天是属于你的日子，</p>
+    <p>愿你的未来如烛光般温暖明亮，</p>
+    <p>愿你的梦想如蛋糕般甜美圆满。</p>
+    <p>—— Happy Birthday, CYL！</p>
+  </div>
+
+  <!-- 祝福留言板 -->
+  <div class="wishboard">
+    <h2>留下你的祝福</h2>
+    <textarea id="wish-input" placeholder="写下你的祝福..."></textarea>
+    <button id="submit-wish">提交祝福</button>
+    <div id="wish-display"></div>
+  </div>
+
+  <!-- 背景音乐 -->
+  <audio id="bg-music" src="birthday-music.mp3" loop></audio>
+  <button id="music-toggle">播放音乐</button>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
